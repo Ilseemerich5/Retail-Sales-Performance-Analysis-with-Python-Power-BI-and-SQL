@@ -5,15 +5,13 @@ This project analyzes retail sales data from a U.S.-based retail store to uncove
 
 The workflow follows a structured process: **Business Understanding → ETL → EDA → Statistical Forecasting Model → Visualization**, transforming raw retail data into actionable business insights.
 
----
----
 
 ## Tools
 - **SQL:** ETL, data cleaning, creating base tables, and updating customer and sales metrics  
 - **Python:** Data preprocessing, Exploratory Data Analysis (EDA), and time series modeling using Prophet  
 - **Power BI:** Interactive dashboards for visualizing sales, profits, products, and regional performance  
 
----
+
 
 ## Python Libraries Used
 - `pandas` for data manipulation and analysis  
@@ -21,7 +19,6 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 - `matplotlib` and `seaborn` for data visualization  
 - `prophet` for time series forecasting  
 
----
 
 ## Dataset
 - Sales orders  
@@ -29,7 +26,6 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 - Product details  
 - Regional and state-level data
 
----
 
 ## Business Understanding
 **Objective:** Understand retail sales performance, profitability, and customer behavior to provide actionable insights for decision-making.  
@@ -40,7 +36,6 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 - What are the characteristics of top customers and high-value transactions?  
 - How does seasonality affect sales trends?  
 
----
 
 ## Methodology
 
@@ -67,7 +62,6 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 ### Visualization
 - Interactive Power BI dashboard post-EDA to explore sales, profits, top products, regional trends, and customer segmentation dynamically  
 
----
 
 ## Key Insights
 - Wholesale channel generates the highest revenue; profit margins are consistent across channels  
@@ -76,7 +70,6 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 - Top customers demonstrate long-term engagement and high transaction values, ideal for targeted loyalty strategies  
 - Seasonality analysis confirms predictable revenue peaks aligned with promotional and fiscal cycles  
 
----
 
 ## Recommended Next Steps
 Further analysis is recommended to obtain deeper product-level insights, including:  
@@ -84,7 +77,6 @@ Further analysis is recommended to obtain deeper product-level insights, includi
 - Evaluating the effects of seasonal patterns and customer segmentation to enhance operational decision-making and overall efficiency in the retail business  
 
 
----
 
 ## Author
 **Ilse EMERICH**
