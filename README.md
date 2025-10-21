@@ -6,6 +6,30 @@ This project analyzes retail sales data from a U.S.-based retail store to uncove
 The workflow follows a structured process: **Business Understanding → ETL → EDA → Statistical Forecasting Model → Visualization**, transforming raw retail data into actionable business insights.
 
 ---
+---
+
+## Tools
+- **SQL:** ETL, data cleaning, creating base tables, and updating customer and sales metrics  
+- **Python:** Data preprocessing, Exploratory Data Analysis (EDA), and time series modeling using Prophet  
+- **Power BI:** Interactive dashboards for visualizing sales, profits, products, and regional performance  
+
+---
+
+## Python Libraries Used
+- `pandas` for data manipulation and analysis  
+- `numpy` for numerical computations  
+- `matplotlib` and `seaborn` for data visualization  
+- `prophet` for time series forecasting  
+
+---
+
+## Dataset
+- Sales orders  
+- Customer information  
+- Product details  
+- Regional and state-level data
+
+---
 
 ## Business Understanding
 **Objective:** Understand retail sales performance, profitability, and customer behavior to provide actionable insights for decision-making.  
@@ -35,13 +59,13 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 - Seasonality: Peaks observed in March, May, and October–December; revenue lowest in February and April  
 - Correlation Analysis: Line total, unit price, and total unit cost strongly correlated with profit; order quantity and profit margin show little correlation with revenue  
 
-### Visualization
-- Interactive Power BI dashboard post-EDA to explore sales, profits, top products, regional trends, and customer segmentation dynamically  
-
 ### Statistical Forecasting Model
 - Implemented revenue prediction using **Prophet**, a time series forecasting model, to estimate monthly revenue from March to December 2018 based on historical sales from January 2014 to February 2018  
 - Forecasting results identified seasonal peaks in March, August, November, and December, reflecting expected retail cycles, promotional periods, and strategic business timing  
 - This step demonstrates how a statistical forecasting model can be applied to predict revenue trends and support business planning, forming a foundation for further predictive modeling  
+
+### Visualization
+- Interactive Power BI dashboard post-EDA to explore sales, profits, top products, regional trends, and customer segmentation dynamically  
 
 ---
 
@@ -59,28 +83,6 @@ Further analysis is recommended to obtain deeper product-level insights, includi
 - Predicting demand for individual items to support sales planning, inventory optimization, and strategic stock management  
 - Evaluating the effects of seasonal patterns and customer segmentation to enhance operational decision-making and overall efficiency in the retail business  
 
----
-
-## Tools
-- **SQL:** ETL, data cleaning, creating base tables, and updating customer and sales metrics  
-- **Python:** Data preprocessing, Exploratory Data Analysis (EDA), and time series modeling using Prophet  
-- **Power BI:** Interactive dashboards for visualizing sales, profits, products, and regional performance  
-
----
-
-## Python Libraries Used
-- `pandas` for data manipulation and analysis  
-- `numpy` for numerical computations  
-- `matplotlib` and `seaborn` for data visualization  
-- `prophet` for time series forecasting  
-
----
-
-## Dataset
-- Sales orders  
-- Customer information  
-- Product details  
-- Regional and state-level data  
 
 ---
 
