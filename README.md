@@ -36,7 +36,7 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 - Correlation Analysis: Line total, unit price, and total unit cost strongly correlated with profit; order quantity and profit margin show little correlation with revenue  
 
 ### Visualization
-- Built an interactive Power BI dashboard post-EDA to explore sales, profits, top products, regional trends, and customer segmentation dynamically  
+- Interactive Power BI dashboard post-EDA to explore sales, profits, top products, regional trends, and customer segmentation dynamically  
 
 ### Statistical Forecasting Model
 - Implemented revenue prediction using **Prophet**, a time series forecasting model, to estimate monthly revenue from March to December 2018 based on historical sales from January 2014 to February 2018  
@@ -81,8 +81,6 @@ Further analysis is recommended to obtain deeper product-level insights, includi
 - Customer information  
 - Product details  
 - Regional and state-level data  
-
-**Note:** Data was cleaned and consolidated into an analysis-ready dataset using SQL and Python. Columns such as **profit**, **profit margin**, and **customer purchase history** were calculated to enhance analysis.  
 
 ---
 
