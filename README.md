@@ -46,7 +46,7 @@ The workflow follows a structured process: **Business Understanding → ETL → 
 
 ### Exploratory Data Analysis (EDA)
 - Analyzed over 64,000 sales orders across 10,684 unique order numbers and three main sales channels  
-- Average order: ~15 units at $8.44 per unit, mean line total of $2,284.38, and average profit of $852.30 per order  
+- Average order: 15 units at $8.44 per unit, mean line total of $2,284.38, and average profit of $852.30 per order  
 - Profit margin averages 37% (range 15–60%), indicating generally healthy profitability  
 - Customers: 175 unique, predominantly female, strong engagement with 2,022–4,644 purchases per customer  
 - Products: 30 unique items, with Montclair Leather Tote and Aspen Leather Backpack standing out for high revenue and profit margins  
